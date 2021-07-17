@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Bree Serif";
+  src: url(Fonts/BreeSerif-Regular.otf);
+  font-weight: normal;
+}
+header{
+  height: 300px;
+  background-image: url(img/clouds.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+h1 {
+  font-family: "Trade Winds", cursive, "Arial", "san-serif";
+  font-size: 30px;
+  color: #cc0099;
+  text-align: center;
+}
+
+main {
+  float: left;
+  width: 600px;
+
+}
+h2 {
+  font-family: "Bree Serif", "Arial", "san-serif";
+  font-size: 24px;
+  color: #cc0099;
+  text-align: center;
+}
+p {
+  font-family: "Museo Sans";
+  font-style: normal;
+}
+aside {
+  float: right;
+  width:300px;
+}
+h3 {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  color:#ccc;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+footer {
+  height: 140px;
+  padding: 12px;
+  text-align: center;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .wrapper,main,aside {
+    width: 100%;
+    float: none;
+    margin:0;
+    padding: 10px;
+  }
+}
